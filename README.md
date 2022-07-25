@@ -33,7 +33,7 @@ A task is just a method of your codeigniter controlloer, so almost any controlle
 Let's see the code
 
 ```php
-\guyenanhung\CodeIgniter\Swoole\Core\Client::send(
+\nguyenanhung\CodeIgniter\Swoole\Core\Client::send(
 [
     'route'  => 'your/route/uri/to/a/method'
     'params' => ['test' => 666]
@@ -109,7 +109,7 @@ class Test extends CI_Controller
     {
         try
         {
-            \guyenanhung\CodeIgniter\Swoole\Core\Client::send(
+            \nguyenanhung\CodeIgniter\Swoole\Core\Client::send(
             [
                 'route'  => 'tests/test/task',
                 'params' => ['hope' => 'it works!'],
